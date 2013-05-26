@@ -1,8 +1,6 @@
-(defproject clj3D "0.0.4"
-  :description "The first Clojure 3D Library"
-  
-  :dependencies [[org.clojure/clojure "1.2.0"]
-                 [org.clojure/clojure-contrib "1.2.0"]
+(defproject hellonico/clj3D "0.0.5"
+  :description "The Clojure 3D Library"
+  :dependencies [[org.clojure/clojure "1.5.1"]
                  [org.clojars.charles-stain/jme "3.0-alpha4"]
                  [org.clojars.charles-stain/eventbus "1.4"]
                  [org.clojars.charles-stain/j-ogg-oggd "3.0"]
@@ -16,7 +14,6 @@
                  [incanter/incanter-core "1.2.3"]
                  [incanter/incanter-charts "1.2.3"]
                  [matchure "0.10.1"]]
-
   :dev-dependencies [[swank-clojure "1.2.0-SNAPSHOT"]]
   :source-path "src"
   :java-source-paths ["java"]
