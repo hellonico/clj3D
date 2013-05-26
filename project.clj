@@ -19,5 +19,5 @@
 
   :dev-dependencies [[swank-clojure "1.2.0-SNAPSHOT"]]
   :source-path "src"
-  :java-source-path "java"
+  :java-source-paths ["java"]
   :jvm-opts ["-Xmx512m"])
