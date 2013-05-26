@@ -1,4 +1,4 @@
-(defproject hellonico/clj3d "0.0.5"
+(defproject hellonico/clj3d "0.0.6"
   :description "The Clojure 3D Library"
   :dependencies [[org.clojure/clojure "1.2.0"]
                  [org.clojars.charles-stain/jme "3.0-alpha4"]
